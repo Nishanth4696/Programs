@@ -1,0 +1,6 @@
+import sys
+userInput = sys.stdin.readlines()
+
+num = userInput[0]
+
+print(num[::-1])
